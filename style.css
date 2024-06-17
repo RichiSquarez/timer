@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
+section{
+    height: 100dvh;
+}
+
+
+.timerButtons{
+    display: flex;
+}
+
+.timerValue{
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    width: 5rem;
+    text-align: center;
+    border: none;
+    margin: 10px;
+}
+
+.timerValue:focus{
+    outline: none;
+    border: 2px solid black;
+}
+
